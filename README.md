@@ -1,0 +1,1 @@
+This is a project creating a landing page from scratch and mainly using flexbox to arrange everything.
