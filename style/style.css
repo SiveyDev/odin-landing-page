@@ -1,10 +1,36 @@
 * {
     font-family: sans-serif;
+    margin: 0;
 }
 
 .sectone {
     background-color: #1F2937;
-    
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 75px;
+}
+
+.head-top {
+    display: flex;
+}
+
+.head-top ul {
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+}
+
+
+
+.head-content {
+    display: flex;
+    font-size: 18PX;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sectone p {
@@ -12,8 +38,8 @@
 }
 
 .hero-main {
-    font-size 48px;
-    font-weight: extra-bold;
+    font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -27,7 +53,34 @@
     color: #F9FAF8;
 }
 
-button {
+.head-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 50px;
+}
+
+.head-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    FONT-SIZE: 18PX;
+    font-weight: 700;
+    border: 0px;
+    BORDER-RADIUS: 7PX;
+    padding: auto;
+    width: 125px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
