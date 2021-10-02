@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* Beginning of first section  */
+
 .sectone {
     background-color: #1F2937;
     display: flex;
@@ -84,3 +86,9 @@ li {
 a {
     text-decoration: none;
 }
+
+img {
+    border-radius: 20px;
+}
+
+/* End of first section */
