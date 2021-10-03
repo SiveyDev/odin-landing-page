@@ -91,6 +91,11 @@ img {
     border-radius: 20px;
 }
 
+.sectone img {
+    height: 300px;
+    width: 800px;
+}
+
 /* End of first section */
 
 /* Beginning of second section */
@@ -119,7 +124,8 @@ img {
 }
 
 .secttwo {
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
+    height: 500px;
 }
 
 .secttwo img {
@@ -136,7 +142,7 @@ img {
 .sectthree {
     background-color: #E5E7EB;
     color: #1F2937;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
