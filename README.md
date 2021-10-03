@@ -1,5 +1,7 @@
 This is a project creating a landing page from scratch and mainly using flexbox to arrange everything.
 
+The assignment is complete but I should coe back later and enhance parts of it and make it better.
+
 
 Image credits:
 
