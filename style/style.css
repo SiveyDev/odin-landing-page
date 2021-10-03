@@ -105,6 +105,7 @@ img {
     border-radius: 15px; */
     width: 175px;
     height: 175px;
+    margin-bottom: 15px;
 }
 
 .square-row {
@@ -141,6 +142,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.square-text {
+    width: 175px;
 }
 
 /* End of second section */
@@ -214,5 +219,20 @@ figcaption {
 }
 
 .blue-box-small-text {
+    font-size: 18px;
+}
+
+/* End of fourth section */
+
+/* Beginning of footer */
+
+.foot {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
