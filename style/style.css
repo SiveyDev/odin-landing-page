@@ -69,10 +69,10 @@
 .head-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    FONT-SIZE: 18PX;
+    font-size: 18PX;
     font-weight: 700;
     border: 0px;
-    BORDER-RADIUS: 7PX;
+    border-radius: 7PX;
     padding: auto;
     width: 125px;
     height: 35px;
@@ -101,10 +101,10 @@ img {
 /* Beginning of second section */
 
 .square {
-    border: 4px solid #3b82f6;
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    /* border: 4px solid #3b82f6;
+    border-radius: 15px; */
+    width: 175px;
+    height: 175px;
 }
 
 .square-row {
@@ -129,10 +129,18 @@ img {
 }
 
 .secttwo img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     padding: 0;
     border-radius: 15px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.square-unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* End of second section */
@@ -163,4 +171,48 @@ figcaption {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+/* End of third section */
+
+/* Beginning of  fourth section */
+
+.sectfour {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 35%;
+    width: 70%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-box-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18PX;
+    font-weight: 700;
+    border: 2px solid #F9FAF8;
+    border-radius: 7PX;
+    padding: auto;
+    width: 145px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.blue-box-big-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.blue-box-small-text {
+    font-size: 18px;
 }
